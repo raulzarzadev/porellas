@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>porllas.org</h1>
+        <h1>porellas.org</h1>
         <h4>Pronto ...</h4>
       </main>
     </div>
