@@ -1,19 +1,24 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Por Ellas </title>
-        <meta name="description" content="Organización de eventos deportivos con causa" />
+        <meta
+          name="description"
+          content="Organización de eventos deportivos con causa"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1>porellas.org</h1>
-        <h4>Pronto ...</h4>
+      <main className="bg-gray-200 p-3">
+        <h1 className=" bg-blue-700 text-8xl text-white p-4 text-center">porellas.org</h1>
+        <h4 className="flex align-middle justify-center ">
+          <div className="p-4 w-2/4 text-center  bg-green-400 border-2 border-blue-200 hover:border-transparent">
+            Pronto...
+          </div>
+        </h4>
       </main>
     </div>
   )
